@@ -85,13 +85,13 @@ fun Body() {
                 Toast.makeText(LocalContext.current, "No se puede dividir entre 0 bobo", Toast.LENGTH_SHORT).show()
             }
             else {
-                Text (text = "Resultado: $result", fontSize = 18.sp, fontWeight = FontWeight.Bold, color = Color.Green)
                 when (op) {
                     "Suma" -> result = num1.toInt() + num2.toInt()
                     "Resta" -> result = num1.toInt() - num2.toInt()
                     "Multiplicación" -> result = num1.toInt() * num2.toInt()
                     "División" -> result = num1.toInt() / num2.toInt()
                 }
+                Text (text = "Resultado: $result", fontSize = 18.sp, fontWeight = FontWeight.Bold, color = Color.Green)
             }
 
         }
