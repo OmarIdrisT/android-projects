@@ -93,7 +93,6 @@ fun Body() {
                 }
                 Text (text = "Resultado: $result", fontSize = 18.sp, fontWeight = FontWeight.Bold, color = Color.Green)
             }
-
         }
     }
 }
